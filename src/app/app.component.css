@@ -1,0 +1,62 @@
+a {
+	text-decoration: none !important;
+}
+h1 {
+	color: #5785c1;
+	padding: 50px;
+	text-align:center;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.table td, .table th {
+	text-align: center;
+}
+.plus {
+	width: 70px;
+	height: 40px;
+	color: #fff;
+	background-color: #8ad130;
+	float: right;
+	margin: 20px;
+	line-height: 40px;
+	border-radius: 5px;
+}
+.plus a {
+	color: #fff !important;
+	margin: auto;
+    display: table;
+	
+}
+.glyphicon-plus {
+	padding-right: 5px;
+}
+.pencil {
+	width: 30px;
+	height: 30px;
+	background-color: #e6ba09;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+.trash {
+	width: 30px;
+	height: 30px;
+	background-color: #f85473;
+	display: inline-block;
+	float: left;
+	border-radius: 5px;
+}
+.glyphicon-pencil, .glyphicon-trash {
+	color: #fff;
+	line-height: 28px;
+	
+}
+.edit {
+	display: table;
+	position: relative;
+	margin: auto;
+}
+.table-bordered>tbody>tr>td:nth-child(2), .table-bordered>tbody>tr>td:nth-child(3) {
+	line-height: 30px;
+}

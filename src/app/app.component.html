@@ -1,0 +1,32 @@
+<!--The content below is only a placeholder and can be replaced.-->
+  <div>
+      <h1>
+        Welcome to {{title}}!
+      </h1>
+  </div>
+  <div class="plus"><a href="#"><span class="glyphicon glyphicon-plus"></span>New</a></div>
+<table class="table table-bordered table-striped" ng-controller="mainController">
+<thead>
+    <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Symbol</th>
+    </tr>
+</thead>    
+<tbody>
+    <tr *ngFor="let d of data | async">
+        <td>
+        <div class="edit">
+          <div class="pencil"><a href=""><span class="glyphicon glyphicon-pencil"></span ></a></div>
+          <div class="trash"><a href=""><span class="glyphicon glyphicon-trash"></span ></a></div>
+          <div class="clear"></div>
+        </div>
+        </td>
+        <td>{{d.symbol}}</td>
+        <td>{{d.name}}</td>
+    </tr>
+  
+</tbody>    
+</table>
+
+
